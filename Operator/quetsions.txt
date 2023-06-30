@@ -1,0 +1,80 @@
+a) what is the value of x in this c code?
+    #include<stdio.h>
+    void main()
+    {
+       int x=5*9/3+9;
+       printf("X=%d",x);
+    }
+x=45/3+9  (*)
+x=15+9    (/)
+x=24      (+)
+X WILL BE 24
+-----------------------------------------------------------------------------------------------------
+b) what is the output of this c code?
+   #include<stdio.h>
+   void main() 
+   {
+      int x= 5.8 % 2;  //remainder operator does not work point value in c language.
+      printf("value of x is %d",x);
+   }
+ERROR INVALID OPERAND TO BINARY % HAVE DOUBLE AND INTEGER.
+--------------------------------------------------------------------------------------------------------
+c) what is the output of this c code?
+   #include<stdio.h>
+   void main() 
+   {
+      int y= 3;
+      int x= 5 % 2 * 3 /2;
+      printf("value of x is %d",x);
+   }
+x=5%2*3/2
+x=1*3/2  (%)
+x=3/2    (*)
+x=1      (/)
+x will be 1.
+----------------------------------------------------------------------------------------------------------- 
+d) which of the following is not an arithmetic operation?
+a)  a *= 10;
+b)  a /=10;
+c)  a !=10; //logical operator 
+d)  a %=10;
+-------------------------------------------------------------------------------------------------------------
+e) which of the following data type will throw an error on modulus operation(%)?
+a)  char
+b)  short
+c)  int
+d)  float  //can not be used with %
+-------------------------------------------------------------------------------------------------------------
+f) what is the output of this c code?
+   #include<stdio.h>
+   void main() 
+   {
+      int a = 10,b = 5,c = 5;
+      int d;
+      d = a == (b + c); 
+      printf(" %d",d);
+   }
+d= a==(b+c)
+d= 10==10
+d= 1
+--------------------------------------------------------------------------------------------------------------------  
+g) what is the output of this c code?
+   #include<stdio.h>
+   void main()
+   {
+      int a = 3;
+      int b = ++a + a++ + --a;  //undefine behaviour (same variable inc. dec.) alag alag editors pay alag alag output ayaga.
+      printf("value of b is %d",b);
+   }
+// jab bhi ak equation mai ak say jada bar increment decrement operator same variable(a) pay laga hota hai toh us case mai hum output
+    ko predict nahi kar sakta.  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+

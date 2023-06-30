@@ -1,0 +1,7 @@
+object is created by new keyword.
+
+How to initialize an object in java:- 3 ways
+ 1) using reference variable.
+ 2) using method.
+ 3) using constructor.
+   

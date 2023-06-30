@@ -1,0 +1,4 @@
+
+Inheritance 
+
+in java there are single-level, multi-level and hierarchical inheritance only.

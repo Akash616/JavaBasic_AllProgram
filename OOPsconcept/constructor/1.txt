@@ -1,0 +1,7 @@
+constructor is used to initialize an object.
+
+Types of constructor:-
+
+1) default constructor(no-argument constructor):- compiler create
+2) no-argument constructor(user defined constructor):- user create
+3) parameterized constructor:- user create

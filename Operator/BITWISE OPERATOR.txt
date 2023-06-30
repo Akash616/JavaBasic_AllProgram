@@ -1,0 +1,80 @@
+____BITWISE OPERATOR( &, |, ^, ~, >>, <<, >>>)_____
+
+&--> AND-->   Return true iff both arguments are true.
+|--> OR-->    Return true iff atleast one argument is true.
+^--> X-OR --> Return true iff both arguments are different.
+
+eg:- S.o.p( true & false);  ->false
+     S.o.p( true | false);  ->true
+     S.o.p( true ^ false);  ->true
+ 
+eg:- S.o.p( 4 & 5); ->4 ---> 100
+                             101
+                            ------
+                             100
+                            
+     S.o.p( 4 | 5); ->5 ---> 100
+                             101
+                            -----
+                             101
+                           
+     S.o.p( 4 ^ 5); ->1 ---> 100
+                             101
+                            -----
+                             001 
+
+------BITWISE COMPLEMENT OPERATOR( ~ NOT )-----------
+
+eg:- S.o.p( ~true );  -> CE:-OPERATOR ~ CANNOT BE APPLIES TO BOOLEAN
+     S.o.p( ~4);      -> -5 ----> 4 is integer and int contain 4 byte, 1 byte is 8 bit SO 4 byte=32 bit.
+                            ----> 4 = 0 0000------0100 (32 bit representation )
+                                      |
+                               sign bit   perform 2's complement
+                            -----> 4=1 1111------1011
+                                     | --------------:-
+                              negative 0000------0100
+                                                    1
+                                      ----------------
+                                       0000------0101 =>5
+                               -------> ~4 = -5
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) What is the output of thic c code.
+   #include<stdio.h>
+   int main()
+   {
+      int x=-2;
+      x = x>>1;
+      printf("%d",x);
+   }
+           b         1
+a>>b => a/2  =>  -2/2   => -1
+
+2) what is the output of this c code.
+   #include<stdio.h>
+   int main()
+   {
+      int x = 2;
+      x = x<<1;
+      printf("%d",x);
+   }
+           b                        1
+a<<b => a*2  => x = 2<<1  => x = 2*2  => x = 4
+
+3) what is the output of this c code.
+   #include<stdio.h>
+   int main()
+   {
+      if(~0 == 1)
+       printf("Yes");
+      else 
+       printf("No");
+   }
+~0 => -1 
+(-1 == 1) =>No
+
+
+                                                         
+                                    
+                                      
+                                  

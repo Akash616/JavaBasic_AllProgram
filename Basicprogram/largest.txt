@@ -1,0 +1,67 @@
+//WAP to find the largest of two number.
+class GreaterTwo
+{
+  public static void main(String[] args)
+  {
+    int a=10,b=20;
+    if(a>b)
+    {
+      System.out.println("a is greater");
+    }
+    else
+    {
+      System.out.println("b is greater"); 
+    }
+  }
+}
+
+----------------------------------------------------------------------------------------
+//WAP to find the largest of three number.
+class GreaterThree
+{
+  public static void main(String[] args)
+  {
+    int a=10,b=20,c=30;
+    if(a>b && a>c)                         //&& means if both condititon are true
+    {
+      System.out.println("a is greater");
+    }
+    elseif(b>a && b>c)
+    {
+      System.out.println("b is greater");
+    }
+    else
+    {
+      System.out.println("c is greater");
+    }
+  }
+}
+
+OR
+
+class GreaterThree
+{
+  public static void main(String[] args)
+  {
+    int a=10,b=20,c=30;
+    if(a>b)
+    {
+      if(a>c)
+      {
+        System.out.println("a is greater"); 
+      }
+      else
+      {
+        System.out.println("c is greater");
+      }
+    }
+    else if(b>c)
+    {
+      System.out.println("b is greater");
+    }
+    else
+    {
+      System.out.println("c is greater");
+    }
+  }
+}

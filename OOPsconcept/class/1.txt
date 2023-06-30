@@ -1,0 +1,3 @@
+class,object and method
+
+how to create class,object and method.
